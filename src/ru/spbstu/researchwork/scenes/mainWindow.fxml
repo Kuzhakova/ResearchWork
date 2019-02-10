@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1142.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.spbstu.researchwork.controllers.MainWindowController">
+   <children>
+      <MenuBar prefHeight="8.0" prefWidth="1142.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Файл">
+            <items>
+                  <MenuItem fx:id="menuItemOpen" mnemonicParsing="false" text="Открыть" />
+                  <MenuItem fx:id="menuItemSaveAs" mnemonicParsing="false" text="Сохранить как..." />
+              <MenuItem fx:id="menuItemPrint" mnemonicParsing="false" text="Печать" />
+            </items>
+          </Menu>
+          <Menu fx:id="menuScale" mnemonicParsing="false" text="Масштаб" />
+            <Menu fx:id="menuSettings" mnemonicParsing="false" text="Настройки" />
+          <Menu mnemonicParsing="false" text="Помощь">
+            <items>
+              <MenuItem fx:id="menuItemAbout" mnemonicParsing="false" text="О программе" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</VBox>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.chart.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
@@ -25,5 +26,13 @@
           </Menu>
         </menus>
       </MenuBar>
+      <LineChart fx:id="lineChart" prefHeight="621.0" prefWidth="1142.0" title="Статические характеристики">
+        <xAxis>
+          <NumberAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
    </children>
 </VBox>
